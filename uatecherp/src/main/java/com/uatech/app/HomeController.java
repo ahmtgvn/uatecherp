@@ -39,6 +39,7 @@ public class HomeController {
 	{
 		System.out.println("ags"); 
 		System.out.println("ags"); 
+		int a;
 		
 	}
 	
