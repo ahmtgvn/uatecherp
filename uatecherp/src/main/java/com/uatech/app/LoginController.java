@@ -10,7 +10,7 @@ public class LoginController {
 
         System.out.println("ebeni");
  
-        int a; 
+        int a;   int b; 
  
 	}
 }
