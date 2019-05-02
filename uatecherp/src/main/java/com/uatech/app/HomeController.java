@@ -37,8 +37,7 @@ public class HomeController {
 	}
 	public void fonk()
 	{
-		System.out.println("ags");
-		System.out.println("ags2");
+		System.out.println("ags"); 
 		
 	}
 	
