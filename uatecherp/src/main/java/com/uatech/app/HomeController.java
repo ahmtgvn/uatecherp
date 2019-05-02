@@ -35,5 +35,11 @@ public class HomeController {
 		
 		return "home";
 	}
+	public void fonk()
+	{
+	System.out.println("ags");
+		
+	}
+	
 	
 }
