@@ -34,6 +34,13 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		int a; 
 		
+		for (int i = 0; i < 10; i++) {
+			i++; 
+		}
+		
+		String masterUpdate; 
+		
+		
 		return "home";
 	}
 	public void fonk()
