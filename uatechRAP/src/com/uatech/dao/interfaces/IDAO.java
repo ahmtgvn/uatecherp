@@ -2,11 +2,13 @@ package com.uatech.dao.interfaces;
 
 import java.util.ArrayList;
 
+import org.springframework.stereotype.Repository;
+
 public interface IDAO<T> { 
 
  
 	
-	Object getSessionFactory();   
+  
 	Long insert(T t); 
 	void update(T t); 
 	

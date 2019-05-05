@@ -3,6 +3,8 @@
 	<name>uatechERP</name>
 	<comment></comment>
 	<projects>
+		<project>uatechErpBL</project>
+		<project>uatechRAP</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
