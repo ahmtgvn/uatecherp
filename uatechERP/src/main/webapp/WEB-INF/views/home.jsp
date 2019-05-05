@@ -562,7 +562,84 @@
 												<!-- END BASIC INPUTS -->
 										     </div>
                                             <div class="tab-pane" id="tabs-3">
-                                             <p>added 3</p>
+                                               <!-- BASIC INPUTS -->
+												 <form class="form-horizontal">
+													
+														<div class="form-group">
+															<label class="col-md-2 control-label">Name of Training</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														 <div class="form-group">                                       
+																<label class="col-md-2 control-label">Date of Training</label>
+																<div class="col-md-3">
+																<div class="input-group">
+																	<div class="input-group-addon">
+																		<span class="fa fa-calendar"></span>
+																	</div>
+																	<input type="text" class="form-control daterange" placeholder="09/01/2017 - 09/20/2017">
+																</div>
+																</div>
+														 </div>
+														 
+														 
+														<div class="form-group">
+															<label class="col-md-2 control-label">Duration</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Organizer</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">                                                                
+															<label class="col-md-2 control-label">Certificate Validity</label>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>day</option>
+																	<option>week</option>
+																	<option>month</option>
+																	<option>year</option>                                       
+																</select>
+															</div>
+														 </div>
+														
+														 <div class="form-group"> 
+														 <label class="col-md-2 control-label">File Upload</label>
+														  <div class="col-md-6"> 
+																<input type="file" class="file" data-validation="size" data-validation-max-size="1024kb">
+																<span class="help-block">Validate that file isn't larger than 1024 kilo bytes.</span>
+																
+														 </div> 
+														 </div> 
+														
+														 <div class="form-group">
+														    <div class="col-md-2"> </div>
+															<div class="col-md-3">
+																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+															</div>
+																
+														 </div>
+														  
+														
+													</form> 
+												 
+												<!-- END BASIC INPUTS -->
 										    </div>
 											
                                             <div class="tab-pane" id="tabs-4">
