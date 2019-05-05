@@ -313,7 +313,7 @@
 														</div>
 														 <div class="col-md-2"> 
 															<div class="app-checkbox success inline"> 
-																<label><input type="checkbox" name="app-checkbox-1" value="0"> Company</label> 
+																<label><input  type="checkbox" name="app-checkbox-1" value="0"> Company</label> 
 															</div> 
 														</div>
 														 <div class="col-md-2"> 

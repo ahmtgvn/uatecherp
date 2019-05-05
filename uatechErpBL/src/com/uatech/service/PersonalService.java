@@ -12,7 +12,7 @@ import com.uatech.erp.entity.Personal;
 import com.uatech.service.interfaces.IAccessDataLayerService;  
 
 
-public class PersonalService implements IAccessDataLayerService {
+public class PersonalService implements IAccessDataLayerService<Personal> {
 
 	 
 	@Autowired
@@ -21,26 +21,26 @@ public class PersonalService implements IAccessDataLayerService {
 	
 
 	@Override 
-	public Long insert(Object t) {   
+	public Long insert(Personal t) {   
 		return iDAO.insert((Personal) t);     
 	}
 
 	@Override
-	public void update(Object t) {
+	public void update(Personal t) {
 	    iDAO.update((Personal) t);    
 		
 	}
 
 	@Override
-	public void persist(Object t) {
+	public void persist(Personal t) {
 		iDAO.persist((Personal) t);   
 		
 	}
 
 	@Override
-	public Object getFindById(String pQuery, Object[] pObjects) {
+	public Personal getFindById(String pQuery, Object[] pObjects) {
 		
-		return iDAO.getFindById(pQuery, pObjects);  
+		return iDAO.getFindById(pQuery, pObjects);   
 	}
 
 	@Override
