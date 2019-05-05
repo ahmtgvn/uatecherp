@@ -1,5 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>                        
@@ -25,9 +26,10 @@
             <div class="app-container">
                 <!-- START SIDEBAR -->
                 <div class="app-sidebar app-navigation app-navigation-style-default app-navigation-open-hover dir-left" data-type="close-other">
-                    <a href="index.html" class="app-navigation-logo">
-                        Boooya - Revolution Admin Template 
-                        <button class="app-navigation-logo-button mobile-hidden" data-sidepanel-toggle=".app-sidepanel"><span class="icon-alarm"></span> <span class="app-navigation-logo-button-alert">7</span></button>
+                    <a href="#" class="app-navigation-logo"  >
+                         UATECH 
+                        <button class="app-navigation-logo-button mobile-hidden" data-sidepanel-toggle=".app-sidepanel">
+						<span class="icon-alarm"></span> <span class="app-navigation-logo-button-alert">7</span></button>
                     </a>
                     
                     <nav>
@@ -37,7 +39,7 @@
                                 <a href="#"><span class="nav-icon-hexa">Ds</span> Dashboards<span class="label label-success label-bordered label-ghost">new</span></a>
                                 <ul>                                                                                                
                                     <li>
-                                        <a href="index.html"><span class="nav-icon-hexa">De</span> Default</a>                    
+                                        <a href="#"><span class="nav-icon-hexa">De</span> Default</a>                    
                                     </li>
                                     <li>
                                         <a href="pages-dashboard-ecommerce.html"><span class="nav-icon-hexa">Ec</span> E-commerce <span class="label label-success label-bordered label-ghost">new</span></a>
@@ -303,9 +305,7 @@
                                             <div class="tab-pane active" id="tabs-1">
 											
 											   <!-- BASIC INPUTS -->
-												                      
-													 
-													 <form class="form-horizontal">
+												 <form class="form-horizontal">
 													 
 													 <div class="form-group">
 														 <div class="col-md-2"> 
@@ -388,20 +388,258 @@
 															</div>
 																
 														 </div>
-														 
+														 <div class="form-group">
+														    <div class="col-md-2"> </div>
+															<div class="col-md-3">
+																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+															</div>
+																
+														 </div>
+														  
 														
-														
-													</form>
-													
+													</form> 
 												 
 												<!-- END BASIC INPUTS -->
                                            
 										   </div>
                                             <div class="tab-pane" id="tabs-2">
-                                            <p>added 2</p>
+                                             <!-- BASIC INPUTS -->
+												 <form class="form-horizontal">
+													  
+														<div class="form-group">
+															   <div class="col-md-2"> 
+															      
+																</div>
+																<label class="col-md-3 control-label">KSA</label>
+																
+															       
+														</div>
+														
+														<div class="form-group">
+															 
+																<label class="col-md-2 control-label">City</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>Medine</option>
+																	<option>Cidde</option>
+																	<option>Mekke</option>
+																	<option>Riyad</option>
+																	<option>Taif</option>
+																	<option>Ed Dammam</option>                                      
+																</select>
+																</div>
+															       
+														</div>
+													 
+														<div class="form-group">
+															<label class="col-md-2 control-label">Address</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Company</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Personel Phone</label>
+															<div class="col-md-6">
+																<input type="text" class="mask_phone form-control"  placeholder="Example: 98 (765) 432-10-98">
+																 
+															</div>
+														</div>
+														 
+														<div class="form-group">
+															<label class="col-md-2 control-label">Company Email</label>
+															<div class="col-md-6"> 
+															  <input class="form-control" data-validation="email" placeholder="youremail@domain.com">
+															</div>
+														</div>
+														 
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Personal Email</label>
+															 <div class="col-md-6"> 
+															  <input class="form-control" data-validation="email" placeholder="youremail@domain.com">
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-md-2 control-label">Emergency Phone</label>
+															<div class="col-md-6">
+																<input type="text" class="mask_phone form-control"  placeholder="Example: 98 (765) 432-10-98">
+																 
+															</div>
+														</div>
+														 
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Emergency Email</label>
+															 <div class="col-md-6"> 
+															  <input class="form-control" data-validation="email" placeholder="youremail@domain.com">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															   <div class="col-md-2"> </div>
+																<label class="col-md-3 control-label">Home Country</label>
+														</div>
+														
+														
+														<div class="form-group">
+															 
+																<label class="col-md-2 control-label">Country</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>Türkiye</option>
+																	<option>Saudi Arabia</option>
+																	<option>Germany</option>
+																	<option>Sweden</option>
+																	<option>Finland</option>
+																	<option>Estonia</option>                                      
+																</select>
+																</div>
+															       
+														</div>
+														
+														<div class="form-group">
+															 
+																<label class="col-md-2 control-label">City</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>Medine</option>
+																	<option>Cidde</option>
+																	<option>Mekke</option>
+																	<option>Riyad</option>
+																	<option>Taif</option>
+																	<option>Ed Dammam</option>                                      
+																</select>
+																</div>
+															       
+														</div>
+														 <div class="form-group">
+															<label class="col-md-2 control-label">Address</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div> 
+														<div class="form-group">
+															<label class="col-md-2 control-label">Personel Phone</label>
+															<div class="col-md-6">
+																<input type="text" class="mask_phone form-control"  placeholder="Example: 98 (765) 432-10-98">
+															 </div>
+														</div>
+														<div class="form-group">
+															<label class="col-md-2 control-label">Emergency Phone</label>
+															<div class="col-md-6">
+																<input type="text" class="mask_phone form-control"  placeholder="Example: 98 (765) 432-10-98">
+															 </div>
+														</div>
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Emergency Email</label>
+															 <div class="col-md-6"> 
+															  <input class="form-control" data-validation="email" placeholder="youremail@domain.com">
+															</div>
+														</div>
+														<div class="form-group">
+														    <div class="col-md-2"> </div>
+															<div class="col-md-3">
+																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+															</div>
+																
+														 </div>
+														
+													</form> 
+												 
+												<!-- END BASIC INPUTS -->
 										     </div>
                                             <div class="tab-pane" id="tabs-3">
-                                             <p>added 3</p>
+                                               <!-- BASIC INPUTS -->
+												 <form class="form-horizontal">
+													
+														<div class="form-group">
+															<label class="col-md-2 control-label">Name of Training</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														 <div class="form-group">                                       
+																<label class="col-md-2 control-label">Date of Training</label>
+																<div class="col-md-3">
+																<div class="input-group">
+																	<div class="input-group-addon">
+																		<span class="fa fa-calendar"></span>
+																	</div>
+																	<input type="text" class="form-control daterange" placeholder="09/01/2017 - 09/20/2017">
+																</div>
+																</div>
+														 </div>
+														 
+														 
+														<div class="form-group">
+															<label class="col-md-2 control-label">Duration</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Organizer</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">                                                                
+															<label class="col-md-2 control-label">Certificate Validity</label>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>day</option>
+																	<option>week</option>
+																	<option>month</option>
+																	<option>year</option>                                       
+																</select>
+															</div>
+														 </div>
+														
+														 <div class="form-group"> 
+														 <label class="col-md-2 control-label">File Upload</label>
+														  <div class="col-md-6"> 
+																<input type="file" class="file" data-validation="size" data-validation-max-size="1024kb">
+																<span class="help-block">Validate that file isn't larger than 1024 kilo bytes.</span>
+																
+														 </div> 
+														 </div> 
+														
+														 <div class="form-group">
+														    <div class="col-md-2"> </div>
+															<div class="col-md-3">
+																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+															</div>
+																
+														 </div>
+														  
+														
+													</form> 
+												 
+												<!-- END BASIC INPUTS -->
 										    </div>
 											
                                             <div class="tab-pane" id="tabs-4">
@@ -518,89 +756,8 @@
                         </div>            
                     </div>
                     
-                    <div class="app-heading app-heading-condensed app-heading-small margin-bottom-20 padding-left-0">
-                        <div class="icon icon-lg">
-                            <span class="icon-cog"></span>
-                        </div>
-                        <div class="title">
-                            <h2>Settings</h2>              
-                            <p>Notification Settings</p>
-                        </div>                                
-                    </div>
                     
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <label class="switch switch-sm margin-0">
-                                    <input type="checkbox" name="app_settings_1" checked="" value="0">
-                                </label>
-                            </div>
-                            <div class="col-xs-10">
-                                <label>Delivery Information</label>
-                            </div>
-                        </div>            
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <label class="switch switch-sm margin-0">
-                                    <input type="checkbox" name="app_settings_2" checked="" value="0">
-                                </label>
-                            </div>
-                            <div class="col-xs-10">
-                                <label>Product Amount Information</label>
-                            </div>
-                        </div>            
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <label class="switch switch-sm margin-0">
-                                    <input type="checkbox" name="app_settings_3" checked="" value="0">
-                                </label>
-                            </div>
-                            <div class="col-xs-10">
-                                <label>Order Information</label>
-                            </div>
-                        </div>            
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <label class="switch switch-sm margin-0">
-                                    <input type="checkbox" name="app_settings_4" checked="" value="0">
-                                </label>
-                            </div>
-                            <div class="col-xs-10">
-                                <label>Server Load</label>
-                            </div>
-                        </div>            
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <label class="switch switch-sm margin-0">
-                                    <input type="checkbox" name="app_settings_5" value="0">
-                                </label>
-                            </div>
-                            <div class="col-xs-10">
-                                <label>User Registrations</label>
-                            </div>
-                        </div>            
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <label class="switch switch-sm margin-0">
-                                    <input type="checkbox" name="app_settings_6" value="0">
-                                </label>
-                            </div>
-                            <div class="col-xs-10">
-                                <label>Purchase Information</label>
-                            </div>
-                        </div>            
-                    </div>
-                    
+                 
                 </div>
             </div>
             <!-- END APP SIDEPANEL -->
@@ -633,6 +790,8 @@
         <script type="text/javascript" src="js/vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
         <script type="text/javascript" src="js/vendor/bootstrap-daterange/daterangepicker.js"></script>
         <script type="text/javascript" src="js/vendor/multiselect/jquery.multi-select.js"></script>
+		<script type="text/javascript" src="js/vendor/form-validator/jquery.form-validator.min.js"></script>
+		<script type="text/javascript" src="js/vendor/maskedinput/jquery.maskedinput.min.js"></script>
 		
         <!-- APP SCRIPTS -->
         <script type="text/javascript" src="js/app.js"></script>
@@ -647,6 +806,19 @@
                 setTimeout(function(){
                     app.spy();
                 },200);
+            });
+        </script>
+		
+		<script type="text/javascript">
+            $.validate({
+                modules : 'date,file,location',
+                onValidate: function(){
+                    
+                    delayBeforeFire(function(){                                                
+                        app.spy();
+                    },100);
+                                        
+                }
             });
         </script>
     </body>
