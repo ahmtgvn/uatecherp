@@ -42,7 +42,7 @@
                                         <a href="#"><span class="nav-icon-hexa">De</span> Default</a>                    
                                     </li>
                                     <li>
-                                        <a href="pages-dashboard-ecommerce.html"><span class="nav-icon-hexa">Ec</span> E-commerce <span class="label label-success label-bordered label-ghost">new</span></a>
+                                        <a href="#"><span class="nav-icon-hexa">Ec</span> E-commerce <span class="label label-success label-bordered label-ghost">new</span></a>
                                     </li>
                                 </ul>
                             </li>       
@@ -52,59 +52,59 @@
                                     <li>
                                         <a href="#"><span class="nav-icon-hexa">Re</span> Real-estate <span class="label label-success label-bordered label-ghost">new</span></a>
                                         <ul>                
-                                            <li><a href="pages-real-estate-search.html"><span class="nav-icon-hexa">Sr</span> Search Result</a></li>
-                                            <li><a href="pages-real-estate-map.html"><span class="nav-icon-hexa">Mp</span> Map</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Sr</span> Search Result</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Mp</span> Map</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#"><span class="nav-icon-hexa">Ba</span> Bank Application</a>
                                         <ul>                
-                                            <li><a href="pages-bank-main.html"><span class="nav-icon-hexa">Mn</span> Main</a></li>
-                                            <li><a href="pages-bank-cards.html"><span class="nav-icon-hexa">Cs</span> My Cards</a></li>
-                                            <li><a href="pages-bank-deposits.html"><span class="nav-icon-hexa">Dp</span> Deposits</a></li>
-                                            <li><a href="pages-bank-activity.html"><span class="nav-icon-hexa">Ac</span> Activity</a></li>
-                                            <li><a href="pages-bank-settings.html"><span class="nav-icon-hexa">St</span> Settings</a></li>
-                                            <li><a href="pages-bank-security.html"><span class="nav-icon-hexa">Sc</span> Security</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Mn</span> Main</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Cs</span> My Cards</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Dp</span> Deposits</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Ac</span> Activity</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">St</span> Settings</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Sc</span> Security</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#"><span class="nav-icon-hexa">Cs</span> Call Service</a>
                                         <ul>                
-                                            <li><a href="pages-call-service-daily.html"><span class="nav-icon-hexa">Ds</span> Daily Statistics</a></li>                        
-                                            <li><a href="pages-call-service-process.html"><span class="nav-icon-hexa">Pw</span> Process Window</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Ds</span> Daily Statistics</a></li>                        
+                                            <li><a href="#"><span class="nav-icon-hexa">Pw</span> Process Window</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#"><span class="nav-icon-hexa">Pt</span> Payment</a>
                                         <ul>                
-                                            <li><a href="pages-payment-invoice.html"><span class="nav-icon-hexa">Pi</span> Invoice</a></li>                        
-                                            <li><a href="pages-payment-pricing.html"><span class="nav-icon-hexa">Pt</span> Pricing Tables</a></li>                        
+                                            <li><a href="#"><span class="nav-icon-hexa">Pi</span> Invoice</a></li>                        
+                                            <li><a href="#"><span class="nav-icon-hexa">Pt</span> Pricing Tables</a></li>                        
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#"><span class="nav-icon-hexa">Bp</span> Blog Pages</a>
                                         <ul>                
-                                            <li><a href="pages-blog-main.html"><span class="nav-icon-hexa">Ma</span> Main (Variant 1)</a></li>
-                                            <li><a href="pages-blog-main-2.html"><span class="nav-icon-hexa">Mn</span> Main (Variant 2)</a></li>
-                                            <li><a href="pages-blog-category.html"><span class="nav-icon-hexa">Ct</span> Category (Right Sidebar)</a></li>
-                                            <li><a href="pages-blog-category-2.html"><span class="nav-icon-hexa">Cr</span> Category (Left Sidebar)</a></li>
-                                            <li><a href="pages-blog-single.html"><span class="nav-icon-hexa">Sn</span> Single</a></li>                        
+                                            <li><a href="#"><span class="nav-icon-hexa">Ma</span> Main (Variant 1)</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Mn</span> Main (Variant 2)</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Ct</span> Category (Right Sidebar)</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Cr</span> Category (Left Sidebar)</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Sn</span> Single</a></li>                        
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#"><span class="nav-icon-hexa">Pf</span> User Profiles</a>
                                         <ul>
-                                            <li><a href="pages-profile-social.html"><span class="nav-icon-hexa">Sp</span> Social Profile</a></li>
-                                            <li><a href="pages-profile-card.html"><span class="nav-icon-hexa">Pc</span> Profile Card</a></li>                
+                                            <li><a href="#"><span class="nav-icon-hexa">Sp</span> Social Profile</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Pc</span> Profile Card</a></li>                
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#"><span class="nav-icon-hexa">Em</span> Email</a>
                                         <ul>                
-                                            <li><a href="pages-email-inbox.html"><span class="nav-icon-hexa">Ib</span> Inbox</a></li>
-                                            <li><a href="pages-email-message.html"><span class="nav-icon-hexa">Ms</span> Message</a></li>
-                                            <li><a href="pages-email-compose.html"><span class="nav-icon-hexa">Cp</span> Compose</a></li>
-                                            <li><a href="pages-email-templates.html"><span class="nav-icon-hexa">Tp</span> Templates</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Ib</span> Inbox</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Ms</span> Message</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Cp</span> Compose</a></li>
+                                            <li><a href="#"><span class="nav-icon-hexa">Tp</span> Templates</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -313,7 +313,7 @@
 														</div>
 														 <div class="col-md-2"> 
 															<div class="app-checkbox success inline"> 
-																<label><input  type="checkbox" name="app-checkbox-1" value="0"> Company</label> 
+																<label><input type="checkbox" name="app-checkbox-1" value="0"> Company</label> 
 															</div> 
 														</div>
 														 <div class="col-md-2"> 
@@ -643,7 +643,241 @@
 										    </div>
 											
                                             <div class="tab-pane" id="tabs-4">
-                                             <p>added 4</p>
+                                                    <!-- BASIC INPUTS -->
+												 <form class="form-horizontal">
+													   
+														<div class="form-group">
+															 
+																<label class="col-md-2 control-label">Department</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>                                 
+																</select>
+																</div>
+															       
+														</div>
+													 	<div class="form-group">
+															 
+																<label class="col-md-2 control-label">Job Description</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>                              
+																</select>
+																</div>
+															       
+														</div>
+													 	<div class="form-group">
+															 
+																<label class="col-md-2 control-label">Designation</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>
+																	<option>....</option>                                     
+																</select>
+																</div>
+															       
+														</div>
+														<div class="form-group">
+														  <label class="col-md-2 control-label">Contract Date</label>
+															<div class="col-md-3">
+																<div class="input-group bs-datepicker">
+																	<input type="text" class="form-control" placeholder="01/01/2001">
+																	<span class="input-group-addon">
+																		<span class="icon-calendar-full"></span>
+																	</span>
+																</div>
+															</div>
+																
+														 </div>
+													    
+														<div class="form-group">                                                                
+															<label class="col-md-2 control-label">Contract Duration</label>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select"> 
+																	<option>month</option>                                  
+																</select>
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div>
+															<div class="col-md-2">
+															<select class="bs-select">  
+																	<option>year</option>                                    
+																</select>
+															</div>
+														 </div>
+														 
+														 <div class="form-group">                                                                
+															<label class="col-md-2 control-label">Annual Vacation Days</label>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>day</option>
+																	<option>week</option>
+																	<option>month</option>
+																	<option>year</option>                                       
+																</select>
+															</div>
+														 </div>
+														 
+														 <div class="form-group">                                                                
+															<label class="col-md-2 control-label">Annual Vacation Period</label>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>day</option>
+																	<option>week</option>
+																	<option>month</option>
+																	<option>year</option>                                       
+																</select>
+															</div>
+														 </div>
+														 
+														  <div class="form-group">                                                                
+															<label class="col-md-2 control-label">Basic Salary</label>
+															<div class="col-md-2">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>USD</option>
+																	<option>TRY</option>
+																	<option>EUR</option>
+																	<option>GBP</option>
+																	<option>CAD</option>                                       
+																</select>
+															</div>
+														 </div>
+														 
+														 <div class="form-group">                                                                
+															<label class="col-md-2 control-label">Home Allowance</label>
+															<div class="col-md-2">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>USD</option>
+																	<option>TRY</option>
+																	<option>EUR</option>
+																	<option>GBP</option>
+																	<option>CAD</option>                                       
+																</select>
+															</div>
+														 </div>
+														 
+														 <div class="form-group">                                                                
+															<label class="col-md-2 control-label">Transportation Allowance</label>
+															<div class="col-md-2">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>USD</option>
+																	<option>TRY</option>
+																	<option>EUR</option>
+																	<option>GBP</option>
+																	<option>CAD</option>                                       
+																</select>
+															</div>
+														 </div>
+														 
+														 <div class="form-group">                                                                
+															<label class="col-md-2 control-label">Food Allowance</label>
+															<div class="col-md-2">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>USD</option>
+																	<option>TRY</option> 
+																	<option>EUR</option>
+																	<option>GBP</option>
+																	<option>CAD</option>                                       
+																</select>
+															</div>
+														 </div>
+														 
+														<div class="form-group">
+															<div class="col-md-2 "></div>
+															<div class="col-md-4 ">
+																<div class="app-checkbox"> 
+																	<label><input type="checkbox" name="app-checkbox-1" id="idAllowance"  onclick="idAllowancefunck()" value="0">Other Allowance</label> 
+																</div>
+															</div>
+														</div>
+														
+														<div class="form-group " id="idAllowanceDiv" style="display:none;" >                                                                
+															<label class="col-md-2 control-label">Allowance</label>
+															<div class="col-md-2">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>USD</option>
+																	<option>TRY</option>
+																	<option>EUR</option>
+																	<option>GBP</option>
+																	<option>CAD</option>                                       
+																</select>
+															</div>
+														 </div>
+														 <div class="form-group">
+														    <div class="col-md-2"> </div>
+															<div class="col-md-3">
+																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+															</div>
+																
+														 </div>
+														  
+													
+													</form> 
+												 
+												<!-- END BASIC INPUTS -->
 										    </div>
 											<div class="tab-pane" id="tabs-5">
                                              <p>added 5</p>
@@ -801,8 +1035,7 @@
 		
         <script>
             $(document).ready(function(){
-                SyntaxHighlighter.all();
-                
+                SyntaxHighlighter.all(); 
                 setTimeout(function(){
                     app.spy();
                 },200);
@@ -821,5 +1054,16 @@
                 }
             });
         </script>
+		<script type="text/javascript">
+			function idAllowancefunck() {
+			  var checkBox = document.getElementById("idAllowance");
+			  var text = document.getElementById("idAllowanceDiv");
+			  if (checkBox.checked == true){
+				text.style.display = "block";
+			  } else {
+				 text.style.display = "none";
+			  }
+			}
+			</script>
     </body>
 </html>
