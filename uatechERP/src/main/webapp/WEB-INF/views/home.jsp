@@ -304,20 +304,19 @@
                                         <div class="tab-content">
                                             <div class="tab-pane active" id="tabs-1">
 											
-											   <!-- BASIC INPUTS -->
-												 <form class="form-horizontal">
-													 
+											   <!-- BASIC INPUTS   Personal -->  
+											    <form class="form-horizontal">
 													 <div class="form-group">
 														 <div class="col-md-2"> 
 															 
 														</div>
 														 <div class="col-md-2"> 
-															<div class="app-checkbox success inline"> 
+															<div class="app-checkbox primary inline"> 
 																<label><input type="checkbox" name="app-checkbox-1" value="0"> Company</label> 
 															</div> 
 														</div>
 														 <div class="col-md-2"> 
-															<div class="app-checkbox success inline"> 
+															<div class="app-checkbox primary inline"> 
 																<label><input type="checkbox" name="app-checkbox-1" value="0"> Rental</label> 
 															</div> 
 														</div>
@@ -388,31 +387,48 @@
 															</div>
 																
 														 </div>
-														 <div class="form-group">
+														
+												 </form>
+												         <div class="form-group">  <div class="col-md-2"> </div></div>
+														  <div class="form-group">
 														    <div class="col-md-2"> </div>
-															<div class="col-md-3">
-																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+															<div class="col-md-3">									
+																<button class="btn btn-success btn-icon-fixed" onclick="setTab('tabs-2')"><span class="icon-arrow-right"></span> GO</button>
 															</div>
 																
 														 </div>
+														 
+														  <!--div class="form-group">
+																<div class="col-sm-1 col-md-1 col-lg-1">
+																</div>
+																<div class="col-sm-9 col-md-10 col-lg-10 text-right">
+																	<button type="button" id="btnClearTraining"
+																			onclick="clearArea('tabs-10')"
+																			class="btn btn-info btn-xs">Clear
+																	</button>
+																	<button type="button" id="btnSave"
+																			onclick="formSubmit('formPersonalCard', 'formPersonalCard', 'POST', 'tabs-10')"
+																			class="btn btn-success btn-xs">Add
+																	</button>
+																	<button type="button" id="btnNext16"
+																			onclick="setTab('tabs-11')"
+																			class="btn btn-warning btn-xs">Next
+																	</button>
+																</div>
+															</div-->
+
 														  
-														
-													</form> 
+														 
 												 
 												<!-- END BASIC INPUTS -->
                                            
 										   </div>
                                             <div class="tab-pane" id="tabs-2">
-                                             <!-- BASIC INPUTS -->
-												 <form class="form-horizontal">
-													  
+                                             <!-- BASIC INPUTS  Contact-->
+												    <form class="form-horizontal">
 														<div class="form-group">
-															   <div class="col-md-2"> 
-															      
-																</div>
-																<label class="col-md-3 control-label">KSA</label>
-																
-															       
+															   <div class="col-md-2">  	</div>
+																<label class="col-md-3 control-label">KSA</label> 
 														</div>
 														
 														<div class="form-group">
@@ -549,22 +565,23 @@
 															  <input class="form-control" data-validation="email" placeholder="youremail@domain.com">
 															</div>
 														</div>
+												 </form>
+												 <div class="form-group">  <div class="col-md-2"> </div></div>
 														<div class="form-group">
 														    <div class="col-md-2"> </div>
 															<div class="col-md-3">
-																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+																<button class="btn btn-success btn-icon-fixed" onclick="setTab('tabs-3')"><span class="icon-arrow-right"></span> GO </button>
 															</div>
 																
 														 </div>
-														
-													</form> 
+												 
 												 
 												<!-- END BASIC INPUTS -->
 										     </div>
+											 
                                             <div class="tab-pane" id="tabs-3">
-                                               <!-- BASIC INPUTS -->
-												 <form class="form-horizontal">
-													
+                                               <!-- BASIC INPUTS    Training-->
+												   <form class="form-horizontal"> 
 														<div class="form-group">
 															<label class="col-md-2 control-label">Name of Training</label>
 															<div class="col-md-6">
@@ -627,25 +644,24 @@
 																
 														 </div> 
 														 </div> 
-														
+													 </form>	
+													 <div class="form-group">  <div class="col-md-2"> </div></div>
 														 <div class="form-group">
 														    <div class="col-md-2"> </div>
 															<div class="col-md-3">
-																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+																<button class="btn btn-success btn-icon-fixed" onclick="setTab('tabs-4')"><span class="icon-arrow-right"></span> GO </button>
 															</div>
 																
 														 </div>
 														  
 														
-													</form> 
+													 
 												 
 												<!-- END BASIC INPUTS -->
 										    </div>
-											
-                                            <div class="tab-pane" id="tabs-4">
-                                                    <!-- BASIC INPUTS -->
-												 <form class="form-horizontal">
-													   
+										    <div class="tab-pane" id="tabs-4">
+                                                    <!-- BASIC INPUTS     Contract-->
+												      <form class="form-horizontal"> 
 														<div class="form-group">
 															 
 																<label class="col-md-2 control-label">Department</label>
@@ -866,30 +882,251 @@
 																</select>
 															</div>
 														 </div>
+												 </form>
+												 <div class="form-group">  <div class="col-md-2"> </div></div>
 														 <div class="form-group">
 														    <div class="col-md-2"> </div>
 															<div class="col-md-3">
-																<button class="btn btn-success btn-icon-fixed"><span class="icon-arrow-right"></span> GO </button>
+																<button class="btn btn-success btn-icon-fixed" onclick="setTab('tabs-5')"><span class="icon-arrow-right"></span> GO </button>
 															</div>
 																
 														 </div>
 														  
 													
-													</form> 
+													 
 												 
 												<!-- END BASIC INPUTS -->
 										    </div>
 											<div class="tab-pane" id="tabs-5">
-                                             <p>added 5</p>
+                                             <!-- BASIC INPUTS     Experiences-->
+											  <form class="form-horizontal"> 
+														 <div class="form-group">                                       
+																<label class="col-md-2 control-label">Work Period</label>
+																<div class="col-md-3">
+																<div class="input-group">
+																	<div class="input-group-addon">
+																		<span class="fa fa-calendar"></span>
+																	</div>
+																	<input type="text" class="form-control daterange" placeholder="09/01/2017 - 09/20/2017">
+																</div>
+																</div>
+														 </div>
+														 
+														 
+														<div class="form-group">
+															<label class="col-md-2 control-label">Company</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Position</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															 
+																<label class="col-md-2 control-label">Country</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>Türkiye</option>
+																	<option>Saudi Arabia</option>
+																	<option>Germany</option>
+																	<option>Sweden</option>
+																	<option>Finland</option>
+																	<option>Estonia</option>                                      
+																</select>
+																</div>
+															       
+														</div>
+														
+														<div class="form-group">
+															 
+																<label class="col-md-2 control-label">City</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>Medine</option>
+																	<option>Cidde</option>
+																	<option>Mekke</option>
+																	<option>Riyad</option>
+																	<option>Taif</option>
+																	<option>Ed Dammam</option>                                      
+																</select>
+																</div>
+															       
+														</div>
+														
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Project</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Client</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														 
+														 <div class="form-group">
+															<div class="col-md-2 "></div>
+															<div class="col-md-4 ">
+																<div class="app-checkbox"> 
+																	<label><input type="checkbox" name="app-checkbox-1" id="idApprovalofClient"  onclick="idApprovalofClientfunc()" value="0">Approval of Client</label> 
+																</div>
+															</div>
+														</div>
+														 <div class="form-group" id="idApprovalofClientFile" style="display:none;"> 
+														 <label class="col-md-2 control-label">File Upload</label>
+														  <div class="col-md-6"> 
+																<input type="file" class="file" data-validation="size" data-validation-max-size="1024kb">
+																<span class="help-block">Validate that file isn't larger than 1024 kilo bytes.</span>
+																
+														 </div> 
+														 </div> 
+														  
+												 </form>		
+												 <div class="form-group">  <div class="col-md-2"> </div></div>
+														 <div class="form-group">
+														    <div class="col-md-2"> </div>
+															<div class="col-md-3">
+																<button class="btn btn-success btn-icon-fixed" onclick="setTab('tabs-6')"><span class="icon-arrow-right"></span> GO </button>
+															</div>
+																
+														 </div>
+												 
+												 
+												<!-- END BASIC INPUTS -->
 										    </div>
 											<div class="tab-pane" id="tabs-6">
-                                             <p>added 6</p>
+                                             <!-- BASIC INPUTS    Education-->
+												   <form class="form-horizontal"> 
+													  <div class="form-group">
+															 
+																<label class="col-md-2 control-label">Graduation</label>
+																<div class="col-md-3">  
+																<select class="s2-select-search form-control">
+																	<option>Doctorate</option>
+																	<option>Master</option>
+																	<option>Bachelor</option>
+																	<option>Diploma</option>
+																	<option>College</option>
+																	<option>High School </option>                                      
+																</select>
+																</div>
+															       
+														</div>
+														<div class="form-group">
+															<label class="col-md-2 control-label">Degree</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Name of School</label>
+															<div class="col-md-6">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														
+														<div class="form-group">
+															 
+																<label class="col-md-2 control-label">Country</label>
+																<div class="col-md-3"> 
+															
+																<select class="s2-select-search form-control">
+																	<option>Türkiye</option>
+																	<option>Saudi Arabia</option>
+																	<option>Germany</option>
+																	<option>Sweden</option>
+																	<option>Finland</option>
+																	<option>Estonia</option>                                      
+																</select>
+																</div>
+															       
+														</div>
+														
+														<div class="form-group">                                                                
+															<label class="col-md-2 control-label">Year of Graduation</label>
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div> 
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div> 
+															<div class="col-md-2">
+																<select class="bs-select">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>                                        
+																	<option>5</option>                                        
+																</select>
+															</div> 
+														 </div>
+														
+														
+														<div class="form-group">
+															<label class="col-md-2 control-label">Graduation score</label>
+															<div class="col-md-1">
+																<input type="text" class="form-control" placeholder="...">
+															</div> 
+															<label class="col-md-1 control-label">of</label>
+															<div class="col-md-1">
+																<input type="text" class="form-control" placeholder="...">
+															</div>
+														</div>
+														 
+														 <div class="form-group" > 
+														 <label class="col-md-2 control-label">File Upload</label>
+														  <div class="col-md-6"> 
+																<input type="file" class="file" data-validation="size" data-validation-max-size="1024kb">
+																<span class="help-block">Validate that file isn't larger than 1024 kilo bytes.</span>
+																
+														 </div> 
+														 </div> 
+														  
+													  </form>	
+													  <div class="form-group">  <div class="col-md-2"> </div></div>
+														 <div class="form-group">
+														    <div class="col-md-2"> </div>
+															<div class="col-md-3">
+																<button class="btn btn-success btn-icon-fixed" onclick="setTab('tabs-1')"><span class="icon-arrow-right"></span> GO </button>
+															</div>
+																
+														 </div>
+														
+													 
+												 
+												<!-- END BASIC INPUTS -->
 										    </div> 
 											
 											
                                         </div>
-                                    </div>
-                                    
+                                    </div>                                    
+									
                                 </div>
                                
                             </div>
@@ -1064,6 +1301,24 @@
 				 text.style.display = "none";
 			  }
 			}
-			</script>
+			function idApprovalofClientfunc() {
+			
+			  var checkBox = document.getElementById("idApprovalofClient");
+			  var text = document.getElementById("idApprovalofClientFile");
+			  if (checkBox.checked == true){
+				text.style.display = "block";
+			  } else {
+				 text.style.display = "none";
+			  }
+			}
+			
+			function setTab(tab) { 
+				$('.nav-tabs a[href="#' + tab + '"]').tab('show');
+			}
+
+			</script> 
+			
+			
+			 
     </body>
 </html>
