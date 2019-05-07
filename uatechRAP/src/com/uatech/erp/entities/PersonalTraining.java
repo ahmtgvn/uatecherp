@@ -1,4 +1,4 @@
-package com.uatech.erp.entity;
+package com.uatech.erp.entities;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -13,8 +13,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-public class PersonalExperience implements Serializable {
-
+public class PersonalTraining implements Serializable { 
+	
 	@Id 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
@@ -22,18 +22,17 @@ public class PersonalExperience implements Serializable {
 	private String name;
 	@Column(length = 10) 
 	private BigDecimal nationalId;
+	private String nameOfTraining;
 	@Temporal(TemporalType.DATE)
 	private Date startDate;
 	@Temporal(TemporalType.DATE)
 	private Date finishDate; 
-	private String company;
-	private String position;
-	private long country;
-	private long city;
-	private String project;
-	private String client;
-	private boolean approvalOfClient;
-	private String approvalDocURL;
+	private int duration;
+	private byte durationType;// year,hour,month it must come from any code table
+	private String organizer;
+	private String certificateNo;
+	private byte  certificateMonth;
+	private byte  certificateYear;
 	public long getId() {
 		return id;
 	}
@@ -58,6 +57,12 @@ public class PersonalExperience implements Serializable {
 	public void setNationalId(BigDecimal nationalId) {
 		this.nationalId = nationalId;
 	}
+	public String getNameOfTraining() {
+		return nameOfTraining;
+	}
+	public void setNameOfTraining(String nameOfTraining) {
+		this.nameOfTraining = nameOfTraining;
+	}
 	public Date getStartDate() {
 		return startDate;
 	}
@@ -70,56 +75,43 @@ public class PersonalExperience implements Serializable {
 	public void setFinishDate(Date finishDate) {
 		this.finishDate = finishDate;
 	}
-	public String getCompany() {
-		return company;
+	public int getDuration() {
+		return duration;
 	}
-	public void setCompany(String company) {
-		this.company = company;
+	public void setDuration(int duration) {
+		this.duration = duration;
 	}
-	public String getPosition() {
-		return position;
+	public byte getDurationType() {
+		return durationType;
 	}
-	public void setPosition(String position) {
-		this.position = position;
+	public void setDurationType(byte durationType) {
+		this.durationType = durationType;
 	}
-	public long getCountry() {
-		return country;
+	public String getOrganizer() {
+		return organizer;
 	}
-	public void setCountry(long country) {
-		this.country = country;
+	public void setOrganizer(String organizer) {
+		this.organizer = organizer;
 	}
-	public long getCity() {
-		return city;
+	public String getCertificateNo() {
+		return certificateNo;
 	}
-	public void setCity(long city) {
-		this.city = city;
+	public void setCertificateNo(String certificateNo) {
+		this.certificateNo = certificateNo;
 	}
-	public String getProject() {
-		return project;
+	public byte getCertificateMonth() {
+		return certificateMonth;
 	}
-	public void setProject(String project) {
-		this.project = project;
+	public void setCertificateMonth(byte certificateMonth) {
+		this.certificateMonth = certificateMonth;
 	}
-	public String getClient() {
-		return client;
+	public byte getCertificateYear() {
+		return certificateYear;
 	}
-	public void setClient(String client) {
-		this.client = client;
-	}
-	public boolean isApprovalOfClient() {
-		return approvalOfClient;
-	}
-	public void setApprovalOfClient(boolean approvalOfClient) {
-		this.approvalOfClient = approvalOfClient;
-	}
-	public String getApprovalDocURL() {
-		return approvalDocURL;
-	}
-	public void setApprovalDocURL(String approvalDocURL) {
-		this.approvalDocURL = approvalDocURL;
-	}
+	public void setCertificateYear(byte certificateYear) {
+		this.certificateYear = certificateYear;
+	}   
 	
 	
-	
-	
+
 }

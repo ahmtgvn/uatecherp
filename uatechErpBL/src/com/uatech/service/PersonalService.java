@@ -8,46 +8,57 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.uatech.dao.interfaces.IDAO;
-import com.uatech.erp.entity.Personal;
+import com.uatech.erp.entities.Personal;
 import com.uatech.service.interfaces.IAccessDataLayerService;  
 
 
-public class PersonalService implements IAccessDataLayerService<Personal> {
+public class PersonalService implements IAccessDataLayerService<Personal,Long> {
 
 	 
 	@Autowired
-	@Qualifier("CustomHibernate") 
-	IDAO<Personal> iDAO;    
+	@Qualifier("PersonalDAO")  
+	IDAO iDAO;    
 	
 
 	@Override 
 	public Long insert(Personal t) {   
-		return iDAO.insert((Personal) t);     
+		return iDAO.insert(t);      
 	}
 
 	@Override
-	public void update(Personal t) {
-	    iDAO.update((Personal) t);    
+	public boolean update(Personal t) {
+	 return  iDAO.update(t);    
 		
 	}
 
 	@Override
-	public void persist(Personal t) {
-		iDAO.persist((Personal) t);   
+	public boolean delete(Personal t) {
+		return  iDAO.update(t); 
+	} 
+	
+	@Override
+	public boolean persist(Personal t) {
+		return iDAO.persist(t);   
 		
 	}
 
 	@Override
-	public Personal getFindById(String pQuery, Object[] pObjects) {
+	public Personal getFindById(Long id) { 
 		
-		return iDAO.getFindById(pQuery, pObjects);   
+		return (Personal) iDAO.getFindById(id);      
 	}
 
 	@Override
-	public ArrayList getAll(String pQuery, Object[] pObjects) {
+	public ArrayList<Personal> getAll() {
 		
-		return iDAO.getAll(pQuery, pObjects);   
+		return iDAO.getAll();    
 	}
 	 
+	@Override
+	public ArrayList<Personal> getResults() { 
+		return iDAO.getResults();  
+	}
+
+	
 
 }

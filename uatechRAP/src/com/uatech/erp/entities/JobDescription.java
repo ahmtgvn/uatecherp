@@ -1,4 +1,4 @@
-package com.uatech.erp.entity;
+package com.uatech.erp.entities;
 
 import java.io.Serializable;
 
