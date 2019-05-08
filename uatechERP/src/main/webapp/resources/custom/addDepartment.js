@@ -33,7 +33,7 @@ function getUpperDepartments(){
 function addDepartment() {
 	var param = {
 		department : $("#department").val(),
-		uppperDepartmentId : $("#upperDepartment").val()
+		upperDepartmentId : $("#upperDepartment").val()
 	}
 	var ser_data = JSON.stringify(param);
 	$.ajax({
