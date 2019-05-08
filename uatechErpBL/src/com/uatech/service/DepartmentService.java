@@ -4,12 +4,18 @@ import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.uatech.dao.interfaces.IDAO;
 import com.uatech.erp.entities.Department;
 import com.uatech.erp.entities.Department;
 import com.uatech.service.interfaces.IAccessDataLayerService;
 
+@Service
+@Component("DepartmentService") 
+@Transactional
 public class DepartmentService implements IAccessDataLayerService<Department, Long> {
 
 	@Autowired
@@ -55,7 +61,7 @@ public class DepartmentService implements IAccessDataLayerService<Department, Lo
 	public ArrayList<Department> getResults() {
 		return iDAO.getResults();  
 	}
-
+	
 	
 
 }

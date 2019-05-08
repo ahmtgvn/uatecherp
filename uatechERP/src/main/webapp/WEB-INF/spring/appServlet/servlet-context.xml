@@ -45,7 +45,7 @@
 				<beans:prop key="hibernate.format_sql">${hibernate.format_sql}</beans:prop>
 			</beans:props>
 		</beans:property>
-		<beans:property name="packagesToScan" value="com.uatech.erp.entity" />  
+		<beans:property name="packagesToScan" value="com.uatech.erp.entities" />  
 	</beans:bean>
 	<beans:bean id="hibernateTransactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
 		<beans:property name="sessionFactory" ref="sessionFactory"/>	

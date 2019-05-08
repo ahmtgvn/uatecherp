@@ -31,6 +31,7 @@ public class DepartmentDAO implements IDAO<Department, Long> {
 			sessionFactory.getCurrentSession().update(t);
 		} catch (Exception e) {
 			// TODO Loglama yapilacak
+			e.printStackTrace(); 
 			dResult = false;
 		}
 		return dResult;
@@ -62,7 +63,7 @@ public class DepartmentDAO implements IDAO<Department, Long> {
 	@Override
 	public ArrayList<Department> getAll() {
 
-		Query query = sessionFactory.getCurrentSession().createQuery("From Personal");
+		Query query = sessionFactory.getCurrentSession().createQuery("From Department");
 
 		return (ArrayList<Department>) query.getResultList(); 
 	}
