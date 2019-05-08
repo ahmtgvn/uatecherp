@@ -238,7 +238,7 @@
 														<label class="col-md-2 control-label">Department
 															Name</label>
 														<div class="col-md-6">
-															<input type="text" id="department" class="form-control" placeholder="...">
+															<input type="text" id="department"  data-validation="required" class="form-control" placeholder="Department Name">
 														</div>
 													</div>
 													<div class="form-group">
@@ -260,8 +260,8 @@
 													<div class="form-group">
 														<div class="col-md-2"></div>
 														<div class="col-md-3">
-															<button class="btn btn-success btn-icon-fixed" onclick="addDepartment()">
-																<span class="icon-arrow-right"></span>Save
+															<button class=" btn btn-success btn-icon-fixed" type="button"  onclick="addDepartment()">
+																<span class="icon-arrow-up"></span>Save 
 															</button>
 														</div>
 
@@ -485,7 +485,6 @@
 		src="js/vendor/maskedinput/jquery.maskedinput.min.js"></script>
 		<script type="text/javascript" src="js/vendor/datatables/jquery.dataTables.min.js"></script>
         <script type="text/javascript" src="js/vendor/datatables/dataTables.bootstrap.min.js"></script>
-
 	<!-- APP SCRIPTS -->
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/app_plugins.js"></script>
